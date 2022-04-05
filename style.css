@@ -1,0 +1,102 @@
+/* elementos de estilo da página (parte visual) */
+*{
+    background-color: gray;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+h1{
+    color: white;
+    font-size: 40px;
+    text-align: center;
+}
+
+p{
+    color: white;
+    font-size: 20px;
+    text-align: center;
+}
+.container{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+input{
+    border: none;
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 10px;
+    font-size: 20px;
+    margin-top: 10px;
+}
+
+.inputs{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.botao-adicionar{
+    background-color: green;
+    border-radius: 5px;
+    border: 1px;
+    box-shadow: 0 0 0 0;
+    color: #fff;
+    font-size: 14px;
+    font-weight: bold;
+    padding: 5px 10px;
+    margin: 5px;
+}
+
+.botao-remover{
+    background-color: #c21f03;
+    border-radius: 5px;
+    border: 1px;
+    box-shadow: 0 0 0 0;
+    color: #fff;
+    font-size: 14px;
+    font-weight: bold;
+    padding: 5px 10px;
+    margin: 5px;
+}
+
+.botaoMais{
+    background-color: #db7133;
+    border-radius: 5px;
+    border: 1px;
+    box-shadow: 0 0 0 0;
+    color: #fff;
+    font-size: 50px;
+    font-weight: bold;
+    padding: 5px 10px;
+    margin: 5px;
+}
+
+.botaoMenos{
+    background-color: #db7133;
+    border-radius: 5px;
+    border: 1px;
+    box-shadow: 0 0 0 0;
+    color: #fff;
+    font-size: 50px;
+    font-weight: bold;
+    padding: 5px 10px;
+    margin: 5px;
+}
+
+.numero{
+    background-color: #00b7ea;
+    border-radius: 5px;
+    color: #fff;
+    font-size: 50px;
+    font-weight: bold;
+    padding: 5px 10px;
+    text-decoration: none;
+    text-transform: uppercase;
+}

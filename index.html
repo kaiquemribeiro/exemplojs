@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Exemplo</title>
+  </head>
+  <body>
+      <h1>
+          Exemplo JavaScript, HTML e CSS :)
+      </h1>
+      <p>Adicionar: adiciona um número a contagem</p>
+      <p>Remover: remove um número da contagem</p>
+    <div class="inputs">
+      <input type="number" id="box-numero" class="box-numero" placeholder="numero">
+      <button
+        id="botao-adicionar"
+        class="botao-adicionar"
+        onclick="adicionar()"
+      >
+        adicionar
+      </button>
+      <button id="botao-remover" class="botao-remover" onclick="remover()">remover</button>
+    </div>
+    <div class="container">
+      <button id="mais" onclick="mais()" class="botaoMais">+</button>
+      <!-- o atributo onclick faz com que a função seja chamada toda vez que o botão é clicado-->
+      <div id="numero" class="numero">0</div>
+      <button id="menos" onclick="menos()" class="botaoMenos">-</button>
+    </div>
+  </body>
+  <script src="index.js"></script>
+</html>
